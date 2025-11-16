@@ -49,11 +49,12 @@ if checkbox_scatter:
     # Obviamente no lo hice todo con chatgpt pero, me ayudó a pulir algunas cosas. También con la lógica de la interacción
     # Espero que funcione!!!!!!, estoy emocionado 🙀
 if start_button:  # jejejej
-    st.balloons()
+    st.snow()
     st.header("HELLO WORLD")
     st.success("Has desbloqueado un logro!")
     st.markdown(
         "[Clic aquí para reclamar tu premio 😼🎁](https://www.youtube.com/shorts/SXHMnicI6Pg)")
-if float(total_account) == 23:  # Un easter_egg, ando experimentando
-    st.image("imagenes/secreto.png")
-    st.toast("Has encontrado un easter egg 🙀😹✨")
+if 53 < total_account < 54:  # Un easter_egg, ando experimentando
+    st.image("secreto_NO_abrir/secreto.jpg")
+    st.balloons()
+    st.write("Has encontrado un easter egg 🙀😹✨")
