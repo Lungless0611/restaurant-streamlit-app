@@ -55,6 +55,6 @@ if start_button:  # jejejej
     st.markdown(
         "[Clic aquí para reclamar tu premio 😼🎁](https://www.youtube.com/shorts/SXHMnicI6Pg)")
 if 53 < total_account < 54:  # Un easter_egg, ando experimentando
-    st.image("secreto_NO_abrir/secreto.jpg")
+    st.image("secreto.jpg")
     st.balloons()
     st.write("Has encontrado un easter egg 🙀😹✨")
